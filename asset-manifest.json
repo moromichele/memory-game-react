@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/memory-game-react/static/css/main.33c44bdc.css",
+    "main.css": "/memory-game-react/static/css/main.787b82de.css",
     "main.js": "/memory-game-react/static/js/main.8d980954.js",
     "static/media/bowser.png": "/memory-game-react/static/media/bowser.df5df4d89c545b57cb88.png",
     "static/media/wario.png": "/memory-game-react/static/media/wario.fbb4cf844a78ff9c6a60.png",
@@ -18,11 +18,11 @@
     "static/media/question_mark.png": "/memory-game-react/static/media/question_mark.1cd49d5546c9fce186af.png",
     "static/media/SuperMario256.ttf": "/memory-game-react/static/media/SuperMario256.727519250ea444b6c5ce.ttf",
     "index.html": "/memory-game-react/index.html",
-    "main.33c44bdc.css.map": "/memory-game-react/static/css/main.33c44bdc.css.map",
+    "main.787b82de.css.map": "/memory-game-react/static/css/main.787b82de.css.map",
     "main.8d980954.js.map": "/memory-game-react/static/js/main.8d980954.js.map"
   },
   "entrypoints": [
-    "static/css/main.33c44bdc.css",
+    "static/css/main.787b82de.css",
     "static/js/main.8d980954.js"
   ]
 }
