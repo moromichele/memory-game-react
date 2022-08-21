@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/memory-game-react/static/css/main.a168d20f.css",
-    "main.js": "/memory-game-react/static/js/main.ffc57d30.js",
-    "static/media/bowser.png": "/memory-game-react/static/media/bowser.df5df4d89c545b57cb88.png",
-    "static/media/wario.png": "/memory-game-react/static/media/wario.fbb4cf844a78ff9c6a60.png",
-    "static/media/mario.png": "/memory-game-react/static/media/mario.4d1844cc052e797d83da.png",
-    "static/media/dk.png": "/memory-game-react/static/media/dk.e2b7870ff763e8a0d7ab.png",
-    "static/media/luigi.png": "/memory-game-react/static/media/luigi.948cc7adfad68c27ad67.png",
-    "static/media/waluigi.png": "/memory-game-react/static/media/waluigi.0b8e0af31f4334d5f08d.png",
-    "static/media/yoshi.png": "/memory-game-react/static/media/yoshi.b7bec7a196d661fa37c7.png",
-    "static/media/piranha.png": "/memory-game-react/static/media/piranha.7026d605588f1f205fae.png",
-    "static/media/koopatroopa.png": "/memory-game-react/static/media/koopatroopa.97f6ab050044cc43a873.png",
-    "static/media/goomba.png": "/memory-game-react/static/media/goomba.b2bda568d0b56a48fb9b.png",
-    "static/media/peach.png": "/memory-game-react/static/media/peach.8002a7bdcbb45323df7e.png",
-    "static/media/toad.png": "/memory-game-react/static/media/toad.23a7414ed024a97bdee3.png",
+    "main.js": "/memory-game-react/static/js/main.85d289b2.js",
     "static/media/Pixeboy.ttf": "/memory-game-react/static/media/Pixeboy.143c9dc71d2a56d4bc46.ttf",
-    "static/media/question_mark.png": "/memory-game-react/static/media/question_mark.1cd49d5546c9fce186af.png",
+    "static/media/bowser.webp": "/memory-game-react/static/media/bowser.311c1f6f36b541871845.webp",
+    "static/media/dk.webp": "/memory-game-react/static/media/dk.bea2b4d6f5a1b38e80f0.webp",
+    "static/media/yoshi.webp": "/memory-game-react/static/media/yoshi.8aed32dfaf1a1e4aa43d.webp",
+    "static/media/luigi.webp": "/memory-game-react/static/media/luigi.a4c1a492677f443026f6.webp",
     "static/media/SuperMario256.ttf": "/memory-game-react/static/media/SuperMario256.727519250ea444b6c5ce.ttf",
+    "static/media/piranha.webp": "/memory-game-react/static/media/piranha.2ea2328a9614b9a4ada4.webp",
+    "static/media/wario.webp": "/memory-game-react/static/media/wario.73f4feee37500a1d7293.webp",
+    "static/media/mario.webp": "/memory-game-react/static/media/mario.491cef228951edb8528e.webp",
+    "static/media/waluigi.webp": "/memory-game-react/static/media/waluigi.90b84c362ea8dc127aa1.webp",
+    "static/media/peach.webp": "/memory-game-react/static/media/peach.aee685016127dee34d7d.webp",
+    "static/media/koopatroopa.webp": "/memory-game-react/static/media/koopatroopa.cee708753efd8e2da7aa.webp",
+    "static/media/question_mark.webp": "/memory-game-react/static/media/question_mark.8b55ec60775c680e729f.webp",
+    "static/media/toad.webp": "/memory-game-react/static/media/toad.fbe202ef7d7a3a59f8c0.webp",
+    "static/media/goomba.webp": "/memory-game-react/static/media/goomba.dd8cdc5a8e2c20d42e14.webp",
     "index.html": "/memory-game-react/index.html",
     "main.a168d20f.css.map": "/memory-game-react/static/css/main.a168d20f.css.map",
-    "main.ffc57d30.js.map": "/memory-game-react/static/js/main.ffc57d30.js.map"
+    "main.85d289b2.js.map": "/memory-game-react/static/js/main.85d289b2.js.map"
   },
   "entrypoints": [
     "static/css/main.a168d20f.css",
-    "static/js/main.ffc57d30.js"
+    "static/js/main.85d289b2.js"
   ]
 }
