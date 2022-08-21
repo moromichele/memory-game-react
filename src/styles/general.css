@@ -92,13 +92,6 @@
   width: 100%;
 }
 
-.score {
-  animation-duration: 0.5s;
-  animation-name: pop-in-number;
-  animation-delay: 0.5s;
-  animation-fill-mode: backwards;
-}
-
 .modal-overlay {
   background: rgba(0, 0, 0, 0.5);
   position: fixed;
@@ -165,18 +158,41 @@
   }
 }
 
+@media (max-aspect-ratio: 4/7) {
+  .score-board-flex {
+    flex-direction: column;
+    line-height: 0px;
+  }
+
+  .card-title {
+    font-size: 15px;
+  }
+}
+
 @media (max-width: 920px) {
   .card-title {
     font-size: 20px;
   }
 }
 
-@keyframes pop-in-number {
-  from {
-    transform: scale(1.3);
+@media screen {
+  body {
+    letter-spacing: 0px;
   }
+}
 
-  to {
-    transform: scale(1);
+@media screen and (max-aspect-ratio: 2/3) {
+  .card-img-container {
+    position: absolute;
+    top: 0;
+    height: 60%;
+    width: 100%;
+  }
+  .card-title {
+    height: 40%;
+    line-height: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
