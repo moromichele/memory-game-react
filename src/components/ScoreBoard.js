@@ -13,12 +13,8 @@ const ScoreBoard = ({ currScore, bestScore, toggleModal, isOpenModal }) => {
         <p>{`Best score: ${bestScore}`}</p>
         <button
           className="question-mark-container"
-          onClick={() => handleOpenModal()}
-          onKeyDown={(e) => {
-            if (e.key === "Enter") return handleOpenModal;
-          }}
+          onClick={isOpenModal ? "" : () => handleOpenModal()}
           tabindex={isOpenModal ? "-1" : "0"}
-          role="button"
           aria-label="gameplay instructions"
         >
           <img className="question-mark-img" src={questionMark} alt="" />
