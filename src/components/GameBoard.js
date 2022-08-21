@@ -3,18 +3,18 @@ import SingleCard from "./SingleCard.js";
 import ScoreBoard from "./ScoreBoard.js";
 import MyModal from "./MyModal.js";
 
-import mario from "../assets/mario.png";
-import luigi from "../assets/luigi.png";
-import wario from "../assets/wario.png";
-import waluigi from "../assets/waluigi.png";
-import peach from "../assets/peach.png";
-import toad from "../assets/toad.png";
-import yoshi from "../assets/yoshi.png";
-import bowser from "../assets/bowser.png";
-import dk from "../assets/dk.png";
-import goomba from "../assets/goomba.png";
-import koopa from "../assets/koopatroopa.png";
-import piranha from "../assets/piranha.png";
+import mario from "../assets/mario.webp";
+import luigi from "../assets/luigi.webp";
+import wario from "../assets/wario.webp";
+import waluigi from "../assets/waluigi.webp";
+import peach from "../assets/peach.webp";
+import toad from "../assets/toad.webp";
+import yoshi from "../assets/yoshi.webp";
+import bowser from "../assets/bowser.webp";
+import dk from "../assets/dk.webp";
+import goomba from "../assets/goomba.webp";
+import koopa from "../assets/koopatroopa.webp";
+import piranha from "../assets/piranha.webp";
 
 const GameBoard = () => {
   const card = (img, title, idx) => {

@@ -1,5 +1,5 @@
 import React from "react";
-import questionMark from "../assets/question_mark.png";
+import questionMark from "../assets/question_mark.webp";
 
 const ScoreBoard = ({ currScore, bestScore, toggleModal, isOpenModal }) => {
   const handleOpenModal = () => {
