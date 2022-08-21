@@ -108,7 +108,7 @@ const GameBoard = () => {
   };
 
   return (
-    <div className="game-board">
+    <main className="game-board">
       <div className="cards-container">
         {randBoardArr.map((c) => {
           return (
@@ -117,6 +117,7 @@ const GameBoard = () => {
               cardObject={c}
               shuffler={() => shuffleArray(cards, setRandBoardArr)}
               updater={updateScoreMap}
+              isOpenModal={isOpenModal}
             />
           );
         })}
@@ -125,13 +126,14 @@ const GameBoard = () => {
         currScore={currScore}
         bestScore={bestScore}
         toggleModal={() => handleToggleModal(infoModal)}
+        isOpenModal={isOpenModal}
       />
       <MyModal
         isOpen={isOpenModal}
         toggleModal={() => handleToggleModal()}
         modalObj={modalObj}
       />
-    </div>
+    </main>
   );
 };
 

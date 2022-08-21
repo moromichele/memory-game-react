@@ -1,7 +1,7 @@
 import React from "react";
 import questionMark from "../assets/question_mark.png";
 
-const ScoreBoard = ({ currScore, bestScore, toggleModal }) => {
+const ScoreBoard = ({ currScore, bestScore, toggleModal, isOpenModal }) => {
   const handleOpenModal = () => {
     toggleModal();
   };
@@ -11,16 +11,18 @@ const ScoreBoard = ({ currScore, bestScore, toggleModal }) => {
       <div className="score-board-flex">
         <p>{`Score: ${currScore}`}</p>
         <p>{`Best score: ${bestScore}`}</p>
-        <div
+        <button
           className="question-mark-container"
           onClick={() => handleOpenModal()}
+          onKeyDown={(e) => {
+            if (e.key === "Enter") return handleOpenModal;
+          }}
+          tabindex={isOpenModal ? "-1" : "0"}
+          role="button"
+          aria-label="gameplay instructions"
         >
-          <img
-            className="question-mark-img"
-            src={questionMark}
-            alt="Instructions"
-          />
-        </div>
+          <img className="question-mark-img" src={questionMark} alt="" />
+        </button>
       </div>
     </div>
   );
