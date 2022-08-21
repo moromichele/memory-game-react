@@ -158,13 +158,18 @@
   .modal-content {
     width: 90%;
   }
+
+  .modal-body {
+    max-width: none;
+    width: 80%;
+  }
 }
 
 @media (max-aspect-ratio: 4/7) {
   .score-board-flex {
     flex-direction: column;
     line-height: 0px;
-	 gap: 0px;
+    gap: 0px;
   }
 
   .card-title {
