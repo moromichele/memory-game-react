@@ -55,11 +55,8 @@ const GameBoard = () => {
   const [randBoardArr, setRandBoardArr] = useState(cards);
   const [scoreMap, setScoreMap] = useState(new Array(cards.length).fill(0));
   const [bestScore, setBestScore] = useState(0);
-  const [isOpenModal, setIsOpenModal] = useState(false);
-  const [modalObj, setModalObj] = useState({
-    title: "placeholder title",
-    content: "placeholder content",
-  });
+  const [isOpenModal, setIsOpenModal] = useState(true);
+  const [modalObj, setModalObj] = useState(infoModal);
 
   let currScore = scoreMap.filter((x) => x === 1).length;
 
