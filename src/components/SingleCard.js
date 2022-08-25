@@ -15,7 +15,7 @@ const SingleCard = ({ cardObject, shuffler, updater, isOpenModal }) => {
       onKeyDown={(e) => {
         if (e.key === "Enter") return clickHandler;
       }}
-      tabindex={isOpenModal ? "-1" : "0"}
+      tabIndex={isOpenModal ? "-1" : "0"}
     >
       <div className="card-img-container">
         <img className="card-img" src={cardObject.img} alt={cardObject.title} />

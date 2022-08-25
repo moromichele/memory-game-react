@@ -17,8 +17,7 @@ const ScoreBoard = ({ currScore, bestScore, toggleModal, isOpenModal }) => {
           onKeyDown={(e) => {
             if (e.key === "Enter") return handleOpenModal;
           }}
-          tabindex={isOpenModal ? "-1" : "0"}
-          role="button"
+          tabIndex={isOpenModal ? "-1" : "0"}
           aria-label="gameplay instructions"
         >
           <img className="question-mark-img" src={questionMark} alt="" />

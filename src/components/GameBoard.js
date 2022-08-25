@@ -75,7 +75,6 @@ const GameBoard = () => {
 
   /* Randomizes array using Durstenfeld shuffle algorithm */
   const shuffleArray = (array, setter) => {
-    console.log("shuffling");
     let arrCopy = [...array];
     for (var i = arrCopy.length - 1; i > 0; i--) {
       var j = Math.floor(Math.random() * (i + 1));

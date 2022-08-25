@@ -1,206 +1,217 @@
 .game-board {
-  text-align: center;
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1.5rem;
+	text-align: center;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1.5rem;
 }
 
 .cards-container {
-  display: grid;
-  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
-  gap: 1rem;
+	display: grid;
+	grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+	gap: 1rem;
 }
 
 .single-card {
-  border-radius: 20px;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  background-color: white;
-  aspect-ratio: 1;
-  transition: transform 0.2s;
+	border-radius: 20px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	background-color: white;
+	aspect-ratio: 1;
+	transition: transform 0.2s;
 }
 
 .single-card:active {
-  transform: scale(0.95);
+	transform: scale(0.95);
 }
 
 .card-img-container {
-  position: absolute;
-  top: 0;
-  height: 80%;
-  width: 100%;
+	position: absolute;
+	top: 0;
+	height: 80%;
+	width: 100%;
 }
 
 .card-img {
-  max-width: 90%;
-  padding: 10px;
-  transition: max-width 0.1s;
+	max-width: 90%;
+	padding: 10px;
+	transition: max-width 0.1s;
 }
 
 .card-title {
-  font-size: 27px;
-  height: 20%;
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  background-color: #1d4ed8;
-  color: white;
-  line-height: 1.75em;
+	font-size: 27px;
+	height: 20%;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background-color: #1d4ed8;
+	color: white;
+	line-height: 1.75em;
 }
 
 .single-card:hover .card-img {
-  max-width: 95%;
+	max-width: 95%;
 }
 
 .score-board {
-  color: white;
-  width: 100%;
-  font-size: 2rem;
-  line-height: 1rem;
-  font-family: "SuperMario256", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-    "Helvetica Neue", sans-serif;
+	color: white;
+	width: 100%;
+	font-size: 2rem;
+	line-height: 1rem;
+	font-family: "SuperMario256", -apple-system, BlinkMacSystemFont, "Segoe UI",
+		"Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+		"Helvetica Neue", sans-serif;
 }
 
 .score-board-flex {
-  max-width: 500px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  gap: 5px;
-  flex-wrap: wrap;
+	max-width: 500px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	gap: 5px;
+	flex-wrap: wrap;
 }
 
 .question-mark-container {
-  width: 3rem;
-  height: 3rem;
-  box-shadow: 4px 4px 0px 0px #991b1b;
-  transition: transform 0.3s;
+	width: 3rem;
+	height: 3rem;
+	box-shadow: 4px 4px 0px 0px #991b1b;
+	transition: transform 0.3s;
 }
 
 .question-mark-container:hover {
-  transform: scale(1.2);
+	transform: scale(1.2);
 }
 
 .question-mark-container:active {
-  transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .question-mark-img {
-  width: 100%;
+	width: 100%;
 }
 
 .modal-overlay {
-  background: rgba(0, 0, 0, 0.5);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .modal-body {
-  min-width: 50%;
-  max-width: 70%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  background-color: white;
-  border-radius: 1rem;
-  overflow: auto;
-  padding: 20px 20px;
-  display: flex;
-  flex-direction: column;
+	min-width: 50%;
+	max-width: 70%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	background-color: white;
+	border-radius: 1rem;
+	overflow: auto;
+	padding: 20px 20px;
+	display: flex;
+	flex-direction: column;
 }
 
 .modal-content {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  font-size: larger;
-  font-weight: bold;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	font-size: larger;
+	font-weight: bold;
 }
 
 .play-button {
-  font-family: inherit;
-  padding: 1rem 2rem;
-  font-size: 2rem;
-  border: 2px solid black;
-  background-color: #22c55e;
-  border-radius: 5px;
-  margin: 0 auto;
-  width: 150px;
-  color: white;
-  line-height: 2rem;
-  transition: font-size 0.2s, transform 0.2s;
-  box-shadow: 3px 4px 0px 0px #4b5563;
+	font-family: inherit;
+	padding: 1rem 2rem;
+	font-size: 2rem;
+	border: 2px solid black;
+	background-color: #22c55e;
+	border-radius: 5px;
+	margin: 0 auto;
+	width: 150px;
+	color: white;
+	line-height: 2rem;
+	transition: font-size 0.2s, transform 0.2s;
+	box-shadow: 3px 4px 0px 0px #4b5563;
 }
 
 .play-button:hover {
-  font-size: 2.2rem;
+	font-size: 2.2rem;
 }
 
 .play-button:active {
-  transform: scale(0.95);
+	transform: scale(0.95);
+}
+
+.single-card,
+.question-mark-container {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 @media (max-aspect-ratio: 3/4) {
-  .cards-container {
-    grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr;
-  }
+	.cards-container {
+		grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr;
+	}
 
-  .modal-content {
-    width: 90%;
-  }
+	.modal-content {
+		width: 90%;
+	}
 
-  .modal-body {
-    max-width: none;
-    width: 80%;
-  }
+	.modal-body {
+		max-width: none;
+		width: 80%;
+	}
 }
 
 @media (max-aspect-ratio: 4/7) {
-  .score-board-flex {
-    flex-direction: column;
-    line-height: 0px;
-    gap: 0px;
-  }
+	.score-board-flex {
+		flex-direction: column;
+		line-height: 0px;
+		gap: 0px;
+	}
 
-  .card-title {
-    font-size: 15px;
-  }
+	.card-title {
+		font-size: 15px;
+	}
 }
 
 @media (max-width: 920px) {
-  .card-title {
-    font-size: 20px;
-  }
+	.card-title {
+		font-size: 20px;
+	}
 }
 
 @media screen {
-  body {
-    letter-spacing: 0px;
-  }
+	body {
+		letter-spacing: 0px;
+	}
 }
 
 @media screen and (max-aspect-ratio: 2/3) {
-  .card-img-container {
-    position: absolute;
-    top: 0;
-    height: 60%;
-    width: 100%;
-  }
-  .card-title {
-    height: 40%;
-    line-height: 1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+	.card-img-container {
+		position: absolute;
+		top: 0;
+		height: 60%;
+		width: 100%;
+	}
+	.card-title {
+		height: 40%;
+		line-height: 1em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 }
